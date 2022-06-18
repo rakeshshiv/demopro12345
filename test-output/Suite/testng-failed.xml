@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestRunner1(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.vtigerContacts.ReferenceBoxisEnabledorNot">
+        <methods>
+          <include name="dbConfig"/>
+          <include name="loginToApplin"/>
+          <include name="launchTheBrowser"/>
+          <include name="referenceBoxisEnabledorNot"/>
+          <include name="logoutFromApplin"/>
+          <include name="closeTheBrowser"/>
+          <include name="closeDBconfig"/>
+        </methods>
+      </class> <!-- com.crm.vtigerContacts.ReferenceBoxisEnabledorNot -->
+      <class name="com.crm.vtigerContacts.NotifyOwnerBoxIsEnableorNot">
+        <methods>
+          <include name="dbConfig"/>
+          <include name="loginToApplin"/>
+          <include name="launchTheBrowser"/>
+          <include name="logoutFromApplin"/>
+          <include name="closeTheBrowser"/>
+          <include name="closeDBconfig"/>
+          <include name="notifyOwnerBoxIsEnableorNot"/>
+        </methods>
+      </class> <!-- com.crm.vtigerContacts.NotifyOwnerBoxIsEnableorNot -->
+    </classes>
+  </test> <!-- TestRunner1(failed) -->
+  <test thread-count="5" name="TestRunner2(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.vtigerContacts.PortalUserBoxIsEnableorNot">
+        <methods>
+          <include name="dbConfig"/>
+          <include name="loginToApplin"/>
+          <include name="launchTheBrowser"/>
+          <include name="logoutFromApplin"/>
+          <include name="portalUserBoxIsEnableorNot"/>
+          <include name="closeTheBrowser"/>
+          <include name="closeDBconfig"/>
+        </methods>
+      </class> <!-- com.crm.vtigerContacts.PortalUserBoxIsEnableorNot -->
+      <class name="com.crm.vtigerContacts.EmailOptOutBoxIsEnableorNot">
+        <methods>
+          <include name="dbConfig"/>
+          <include name="loginToApplin"/>
+          <include name="launchTheBrowser"/>
+          <include name="emailOptOutBoxIsEnableorNot"/>
+          <include name="logoutFromApplin"/>
+          <include name="closeTheBrowser"/>
+          <include name="closeDBconfig"/>
+        </methods>
+      </class> <!-- com.crm.vtigerContacts.EmailOptOutBoxIsEnableorNot -->
+    </classes>
+  </test> <!-- TestRunner2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

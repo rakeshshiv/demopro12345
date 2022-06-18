@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Suite">
+  <test  name="TestRunner1">
+  <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.crm.vtigerContacts.EmailOptOutBoxIsEnableorNot"/>
+      <class name="com.crm.vtigerContacts.PortalUserBoxIsEnableorNot"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestRunner2">
+  <parameter name="BROWSER" value="chrome"/>
+    <classes>
+    <class name="com.crm.vtigerContacts.ReferenceBoxisEnabledorNot"/>
+      <class name="com.crm.vtigerContacts.NotifyOwnerBoxIsEnableorNot"/>
+     </classes>  
+   </test> <!-- Test -->
+</suite> <!-- Suite -->

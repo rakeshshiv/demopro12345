@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-18T13:52:26 IST" name="Suite" finished-at="2022-06-18T13:57:26 IST" duration-ms="299256">
+    <groups>
+      <group name="regressionTest">
+        <method signature="EmailOptOutBoxIsEnableorNot.emailOptOutBoxIsEnableorNot()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" name="emailOptOutBoxIsEnableorNot" class="com.crm.contacts.EmailOptOutBoxIsEnableorNot"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="PortalUserBoxIsEnableorNot.portalUserBoxIsEnableorNot()[pri:0, instance:com.crm.contacts.PortalUserBoxIsEnableorNot@48f278eb]" name="portalUserBoxIsEnableorNot" class="com.crm.contacts.PortalUserBoxIsEnableorNot"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-06-18T13:52:26 IST" name="Test" finished-at="2022-06-18T13:57:26 IST" duration-ms="299256">
+      <class name="com.crm.contacts.PortalUserBoxIsEnableorNot">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.contacts.PortalUserBoxIsEnableorNot@48f278eb]" started-at="2022-06-18T13:56:21 IST" name="launchTheBrowser" finished-at="2022-06-18T13:56:49 IST" duration-ms="28753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToApplin()[pri:0, instance:com.crm.contacts.PortalUserBoxIsEnableorNot@48f278eb]" started-at="2022-06-18T13:56:49 IST" name="loginToApplin" finished-at="2022-06-18T13:56:59 IST" duration-ms="9487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplin -->
+        <test-method signature="portalUserBoxIsEnableorNot()[pri:0, instance:com.crm.contacts.PortalUserBoxIsEnableorNot@48f278eb]" started-at="2022-06-18T13:56:59 IST" name="portalUserBoxIsEnableorNot" finished-at="2022-06-18T13:57:25 IST" duration-ms="26008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portalUserBoxIsEnableorNot -->
+        <test-method is-config="true" signature="logoutFromApplin()[pri:0, instance:com.crm.contacts.PortalUserBoxIsEnableorNot@48f278eb]" started-at="2022-06-18T13:57:25 IST" name="logoutFromApplin" finished-at="2022-06-18T13:57:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplin -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.contacts.PortalUserBoxIsEnableorNot@48f278eb]" started-at="2022-06-18T13:57:25 IST" name="closeTheBrowser" finished-at="2022-06-18T13:57:26 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.contacts.PortalUserBoxIsEnableorNot -->
+      <class name="com.crm.contacts.EmailOptOutBoxIsEnableorNot">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" started-at="2022-06-18T13:52:26 IST" name="dbConfig" finished-at="2022-06-18T13:52:26 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" started-at="2022-06-18T13:52:26 IST" name="launchTheBrowser" finished-at="2022-06-18T13:54:23 IST" duration-ms="116392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToApplin()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" started-at="2022-06-18T13:54:23 IST" name="loginToApplin" finished-at="2022-06-18T13:54:41 IST" duration-ms="18225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplin -->
+        <test-method signature="emailOptOutBoxIsEnableorNot()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" started-at="2022-06-18T13:54:41 IST" name="emailOptOutBoxIsEnableorNot" finished-at="2022-06-18T13:55:25 IST" duration-ms="44102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailOptOutBoxIsEnableorNot -->
+        <test-method is-config="true" signature="logoutFromApplin()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" started-at="2022-06-18T13:55:25 IST" name="logoutFromApplin" finished-at="2022-06-18T13:55:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplin -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" started-at="2022-06-18T13:55:25 IST" name="closeTheBrowser" finished-at="2022-06-18T13:55:29 IST" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.crm.contacts.EmailOptOutBoxIsEnableorNot@169e6180]" started-at="2022-06-18T13:57:26 IST" name="closeDBconfig" finished-at="2022-06-18T13:57:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconfig -->
+      </class> <!-- com.crm.contacts.EmailOptOutBoxIsEnableorNot -->
+      <class name="com.crm.contacts.NotifyOwnerBoxIsEnableorNot">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.contacts.NotifyOwnerBoxIsEnableorNot@1da2cb77]" started-at="2022-06-18T13:55:29 IST" name="launchTheBrowser" finished-at="2022-06-18T13:55:46 IST" duration-ms="17404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToApplin()[pri:0, instance:com.crm.contacts.NotifyOwnerBoxIsEnableorNot@1da2cb77]" started-at="2022-06-18T13:55:46 IST" name="loginToApplin" finished-at="2022-06-18T13:55:54 IST" duration-ms="8258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplin -->
+        <test-method signature="notifyOwnerBoxIsEnableorNot()[pri:0, instance:com.crm.contacts.NotifyOwnerBoxIsEnableorNot@1da2cb77]" started-at="2022-06-18T13:55:54 IST" name="notifyOwnerBoxIsEnableorNot" finished-at="2022-06-18T13:56:20 IST" duration-ms="25551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notifyOwnerBoxIsEnableorNot -->
+        <test-method is-config="true" signature="logoutFromApplin()[pri:0, instance:com.crm.contacts.NotifyOwnerBoxIsEnableorNot@1da2cb77]" started-at="2022-06-18T13:56:20 IST" name="logoutFromApplin" finished-at="2022-06-18T13:56:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplin -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.contacts.NotifyOwnerBoxIsEnableorNot@1da2cb77]" started-at="2022-06-18T13:56:20 IST" name="closeTheBrowser" finished-at="2022-06-18T13:56:21 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.contacts.NotifyOwnerBoxIsEnableorNot -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
