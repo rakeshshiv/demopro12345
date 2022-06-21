@@ -11,7 +11,7 @@ import com.crm.objectRepository.CreateNewContactsPage;
 import com.crm.objectRepository.HomePage;
 
 @Listeners(com.crm.genricutilities.ItestListenerImptn.class)
-public class EmailOptOutBoxIsEnableorNot extends BaseClass {
+public class EmailOptOutBoxIsEnableorNotTest extends BaseClass {
 	@Test(groups= {"regressionTest"})
 	public void emailOptOutBoxIsEnableorNot() throws Throwable 
 	{

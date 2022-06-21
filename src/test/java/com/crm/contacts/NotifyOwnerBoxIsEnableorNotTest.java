@@ -9,7 +9,7 @@ import com.crm.objectRepository.CreateContactsPage;
 import com.crm.objectRepository.CreateNewContactsPage;
 import com.crm.objectRepository.HomePage;
 
-public class NotifyOwnerBoxIsEnableorNot extends BaseClass
+public class NotifyOwnerBoxIsEnableorNotTest extends BaseClass
 {
 	@Test(retryAnalyzer =com.crm.genricutilities.ReTryImpclass.class )
 //@Test(groups= {"smokeTest"})
