@@ -70,7 +70,7 @@ public void launchTheBrowser() throws Throwable
     driver.get(URL);
     
     //maximize the screen
-    driver.manage().window().maximize();
+  //  driver.manage().window().maximize();
 }
 /**
  * login to application
