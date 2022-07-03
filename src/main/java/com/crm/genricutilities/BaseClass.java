@@ -87,7 +87,7 @@ public void launchTheBrowser() throws Throwable
     }
     
     /**
-     * sign out from application
+     * sign out from application12345
      */
     @AfterMethod(groups ={"smokeTest","regressionTest"})
     public void logoutFromApplin()
